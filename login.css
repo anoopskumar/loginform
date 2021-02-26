@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    font-family: 'Pacifico', cursive;
+}
+html{
+    font-family: sans-serif;
+}
+
+header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.main-header{
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 50px;
+}
+.main-header:hover{
+    box-shadow: 1px 8px 38px 16px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 8px 38px 16px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 8px 38px 16px rgba(0,0,0,0.75);
+
+}
+.main-header h1{
+    font-size:2rem;
+    /* font-family: var(--main-font); */
+    color: rgb(214, 190, 190);
+    margin: 20px;
+}
+.main-header h3{
+    margin: 20px;
+ font-size: 1.7rem;
+ color:rgb(214, 190, 190) ;
+}
+.main-header hr{
+    width:60%;
+    margin: auto;
+    padding: 5px;
+    background: rgb(156, 149, 146);
+    border: none;
+    border-radius: 50px;
+}
+.main-header input{
+    width:90%;
+    padding: 1rem;
+    margin: 20px 0px;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #5f5fB0;
+    background: transparent;
+    outline: none;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  select {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.main-header button{
+    /* padding: 1rem 3rem; */
+    background:rgb(214, 190, 190) ;
+    color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 50%;
+    cursor: pointer;
+   
+    border: none;
+}
+.main-header button:hover{
+    background-color: black;
+}
